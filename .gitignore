@@ -33,6 +33,8 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Firebase specific files
+lib/firebase_options.dart
 # Symbolication related
 app.*.symbols
 
