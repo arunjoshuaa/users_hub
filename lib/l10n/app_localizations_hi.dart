@@ -126,4 +126,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get light => 'लाइट';
+
+  @override
+  String get systemDefault => 'सिस्टम डिफ़ॉल्ट';
 }

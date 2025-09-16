@@ -37,5 +37,6 @@
   "userDetail": "उपयोगकर्ता विवरण",
   "changeTheme": "थीम बदलें",
   "dark": "डार्क",
-  "light": "लाइट"
+  "light": "लाइट",
+  "systemDefault": "सिस्टम डिफ़ॉल्ट"
 }

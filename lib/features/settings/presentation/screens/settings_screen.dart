@@ -131,10 +131,10 @@ class SettingsScreen extends ConsumerWidget {
                       const Divider(height: 0),
                       RadioListTile<ThemeMode>(
                         title: Row(
-                          children: const [
+                          children:  [
                             Icon(Icons.brightness_auto, color: Colors.blueGrey),
                             SizedBox(width: 10),
-                            Text("System Default"),
+                            Text(appLocalizations.systemDefault),
                           ],
                         ),
                         value: ThemeMode.system,

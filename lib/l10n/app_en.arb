@@ -37,5 +37,6 @@
   "userDetail": "User Detail",
   "changeTheme": "Change Theme",
   "dark": "Dark",
-  "light": "Light"
+  "light": "Light",
+   "systemDefault": "System Default"
 }
