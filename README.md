@@ -86,6 +86,24 @@ Notifications are received even when the app is in the background.
 
 Tapping a notification can navigate to a specific screen.
 
+### Bottom Navigation
+
+Main screens are wrapped in a Scaffold with BottomNavigationBar.
+
+Offline handling for these screens is shown inside the body instead of full-page navigation.
+
+### App Customization
+
+Launcher icon can be updated.
+
+App name can be customized in android/app/src/main/AndroidManifest.xml.
+
+### Localization
+
+Supports English and Hindi.
+
+You can add more languages in the l10n folder and update MaterialApp localization delegates.
+
 ### Build & Run
 
 Run the app on a real device:
