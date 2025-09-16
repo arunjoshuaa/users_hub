@@ -114,17 +114,3 @@ flutter run
 For release mode:
 
 flutter build apk --release
-
-### Notes
-
-Make sure to grant Internet Permission in AndroidManifest.xml for release builds:
-
-  <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
-
-    <!-- Optional (for showing notifications in background) -->
-    <uses-permission
-        android:name="android.permission.POST_NOTIFICATIONS"
-        tools:targetApi="33" />
